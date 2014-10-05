@@ -1,0 +1,799 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/styles.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+
+
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+ <style type="text/css">
+ 
+        body {
+            /* Setting body margins to 0 to have proper positioning of #container div */
+            margin: 0;
+        }
+ 
+            /* #container div with absolute position and 100% width and height so it takes up whole window */
+        #container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+ 
+    </style>
+<script type="text/javascript">
+        $(document).one("mobileinit", function () {
+ 
+            // Setting #container div as a jqm pageContainer
+            $.mobile.pageContainer = $('#container');
+ 
+            // Setting default page transition to slide
+            $.mobile.defaultPageTransition = 'slide';
+ 
+        });
+    </script>
+</head> 
+<body> 
+<div data-role="page" id="page" >
+	<div data-role="header" data-theme="b">
+		<h1>DUA FROM QURAN</h1>
+	</div>
+    <br>
+    <div style="text-align:center;">
+    <iframe src="http://kadl.sa/kadl/default.aspx" width="90%" height="400px"/>
+    </div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+        
+			<li><a href="#page101">DUA (Supplications - تضرع)</a></li>
+            <li><a href="#page102">About</a></li>
+		</ul>		
+	</div>
+    <br><br><br><br>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page101" data-add-back-btn="true" >
+	<div data-role="header" data-theme="b">
+		<h1>DUA FROM QURAN</h1>
+	</div>
+	<div data-role="content">
+    
+    <ul data-role="listview" data-inset="true">
+			<li><a href="#page2">AFFLICTED WITH DIFFICULTY</a></li>
+            <li><a href="#page3">ANY STAIN OR MARK ON THE BODY</a></li>
+			<li><a href="#page4">BAD DREAMS</a></li>
+            <!--<li><a href="#page5">DISTURBED BY AN EVIL SPIRT</a></li>-->
+            <li><a href="#page6">ENGAGED IN BAD DEEDS</a></li>
+            <li><a href="#page7">EVERY TYPE OF PAIN</a></li>
+            <li><a href="#page8">FOR BLOOD PRESSURE</a></li>
+            <li><a href="#page9">FOR DISOBEDIENT CHILDREN</a></li>
+            <li><a href="#page10">FOR HEADACHE</a></li>
+            <li><a href="#page11">FOR MALE CHILDREN</a></li>
+            <li><a href="#page12">FOR PILES</a></li>
+            <li><a href="#page13">FOR SPOTS IN THE MOUTH</a></li>
+            <li><a href="#page14">FOR THE EVIL EYE(NAZAR)</a></li>
+            <li><a href="#page15">FOR THE RETURN OF A MISSING PERSON</a></li>
+            <li><a href="#page16">FULFILLMENT OF ALL PERMISSIBLE WISHES</a></li>
+            <li><a href="#page17">HAVING DIFFICULTY IN FINDING RIGHT PARTNER FOR YOUR CHILD</a></li>
+            <li><a href="#page18">HOMELESSNESS</a></li>
+            <li><a href="#page19">IF A WOMEN LOSES HER NEW BORN CHILD</a></li>
+            <li><a href="#page20">IF SOMEONE IS NEVER HUNGRY</a></li>
+            <li><a href="#page21">IF THERE IS NO LOVE BETWEEN HUSBAND AND WIFE</a></li>
+            <li><a href="#page22">IN RETURNING OF PERSON THAT HAS RUN AWAY</a></li>
+            <li><a href="#page23">INCREASE IN KNOWLEDGE</a></li>
+            <li><a href="#page24">INDIGESTION</a></li>
+            <li><a href="#page25">KIDNEY OR PANCREASE PROBLEMS</a></li>
+            <li><a href="#page26">MISCARRIAGE</a></li>
+            <li><a href="#page27">NO HOPE OF CHILDREN BEING BORN</a></li>
+            <li><a href="#page28">PAIN IN THE LIVER</a></li>
+            <li><a href="#page29">POISONOUS BITE FROM AN ANIMAL</a></li>
+            <li><a href="#page30">REGARDED LOW IN THE EYE OF THE PEOPLE</a></li>
+            <li><a href="#page31">REMOVE THE FEAR OF AN ENEMY</a></li>
+            <li><a href="#page32">SHUTTERING OF THE TONGUE</a></li>
+            <li><a href="#page33">STOMACH ACHE</a></li>
+            <li><a href="#page34">SUCCESS IN EXAMS</a></li>
+            <li><a href="#page35">SUCH SICKNESS THAT MEDICINE DO NOT CURE</a></li>
+            <li><a href="#page36">TO ACHIEVE SUCCESS IN THE BUSINESS</a></li>
+            <li><a href="#page37">TO BE FREED FROM IMPRISONMENT</a></li>
+            <li><a href="#page38">TO BREAK UNLAWFUL RELATIONSHIP</a></li>
+			<li><a href="#page39">TO CREATE LIGHT ON FACE</a></li>
+         	<li><a href="#page40">TO MAINTAIN YOUR EYESIGHT</a></li>
+            <!--<li><a href="#page41">TO RELIEVE WORRY AND GRIEF</a></li>-->
+            <li><a href="#page42">TO REMOVE ANGER AND STUBBORNESS</a></li>
+            <li><a href="#page43">TO REMOVE DIFFICULTY FROM HEART</a></li>
+            <li><a href="#page44">TO REMOVE JINNATS</a></li>
+            <li><a href="#page45">TO REMOVE THE EFFECT OF WITCHCRAFT</a></li>
+            <li><a href="#page46">TO SEE THE PROPHET(PBUH)</a></li>
+            <li><a href="#page47">TO STOP OPPRESSOR FROM OPPRESSING</a></li>
+            <li><a href="#page48">TO WIN A COURT CASE</a></li>
+            <li><a href="#page49">UNCURABLE DISEASE</a></li>
+            <li><a href="#page50">UNEASINESS IN HEART</a></li>
+            <li><a href="#page51">VASTNESS IN SUBSISTENCE</a></li>
+            <li><a href="#page52">WEAK EYESIGHT</a></li>
+            <li><a href="#page53">WEAKNESS OF THE STOMACH</a></li>
+            <li><a href="#page54">WHEN SOMETHING IS LOST</a></li>
+            <li><a href="#page55">WHEN SOMETHING IS STOLEN</a></li>
+            <li><a href="#page56">WISH FOR HAVING A BABY GIRL</a></li>
+
+		</ul>		
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>AFFLICTED WITH DIFFICULTY</h1>
+	</div>
+	<div data-role="content">	
+		<img src="images/afflictedwithdifficulty.jpg" width="300">	
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true" >
+	<div data-role="header" data-theme="b">
+		<h1>ANY STAIN OR MARK ON THE BODY</h1>
+	</div>
+	<div data-role="content"><img src="images/anystainormarkonthebody.jpg" width="300" height="421"></div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>Bad Dreams</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/baddreams.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<!--<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>DISTURBED BY AN EVIL SPIRT</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/DisturbedByAnEvilSpirit.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>-->
+
+<div data-role="page" id="page6" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>ENGAGED IN BAD DEEDS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/engagedinbaddeeds.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page7" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>EVERY TYPE OF PAIN</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/EverytypeofPain.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page8" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR BLOOD PRESSURE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/forBloodPressure.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page9" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR DISOBEDIENT CHILDREN</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ForDisobedientChildren.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page10" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR HEADACHE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ForHeadaches.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page11" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR MALE CHILDREN</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/forMaleChildren.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page12" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR PILES</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ForPiles.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page13" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR SPOT IN THE MOUTH</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ForSpotsinthemouth.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page14" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR THE EVIL EYE(NAZAR)</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ForTheEvilEye.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page15" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FOR THE RETURN OF MISSING PERSON</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/FortheReturnofAMissingPerson.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page16" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>FULFILLMENT OF ALL PERMISSIBLE WISHES</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/FulfilmentOfAllPermissableWishes.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page17" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>HAVING DIFFICULTY IN FINDING RIGHT PARTNER FOR YOUR CHILD</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/HavingDifficultyInFindingtheRightPartnerforYourChild.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page18" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>HOMELESSNESS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/Homelessness.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page19" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>IF A WOMEN LOSES HER NEW BORN CHILD</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/IfAWomanLosesHerNewBornChild.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page20" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>IF SOMEONE IS NEVER HUNGRY</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/IfSomeOneIsNeverHungry.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page21" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>IF THERE IS NO LOVE BETWEEN HUSBAND AND WIFE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/IfThereIsNoLoveBetweenHusbandAndWife.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page22" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>IN RETURNING OF PERSON THAT HAS RUN AWAY</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/InReturniningAPersonThathasrunAway.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page23" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>INCREASE IN KNOWLEDGE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/increaseinknowledge.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page24" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>INDIGESTION</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/Indigestion.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page25" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>KIDNEY OR PANCREAS PROBLEM</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/KidneyorPancreaseProblems.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page26" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>MISCARRIAGE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/miscarriage.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page27" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>NO HOPE OF CHILDREN BEING BORN</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/NoHopeOfChildrenBeingBorn.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page28" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>PAIN IN THE LIVER</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/painintheliver.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page29" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>POISONESS BITE FROM AN ANIMAL</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/PoisonousBiteFromAnAnimal.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page30" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>REGARDED LOW IN THE EYE OF THE PEOPLE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/RegardedLowintheEyeofthePeople.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page31" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>REMOVE THE FEAR OF AN ENEMY</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/RemovetheFearofAnEnemy.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page32" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>SHUTTERING OF THE TONGUE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ShutteringOfthetongue.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page33" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>STOMACH ACHE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/Stomach-Ache.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page34" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>SUCCESS IN EXAMS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/SuccessInExams.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page35" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>SUCH SICKNESS THAT MEDICINE DO NOT CURE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/SuchSicknessThatMedicineDontCure.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page36" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO ACHIEVE SUCCESS IN THE BUSINESS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToAchieveSuccessInBusiness.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page37" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO BE FREED FROM IMPRISONMENT</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToBeFreedFromImprisonment.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page38" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO BREAK UNLAWFUL RELATIONSHIP</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToBreakUnlawfulRelationship.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page39" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO CREATE LIGHT ON FACE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToCreateLightOnFace.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page40" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO MAINTAIN YOUR EYESIGHT</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToMainYourEyesight.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<!--<div data-role="page" id="page41" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO RELIEVE WORRY AND GRIEF</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToRelieveWorryAndGrief.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>-->
+
+<div data-role="page" id="page42" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO REMOVE ANGER AND STUBORNESS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToRemoveAngerAndStubborness.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page43" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO REMOVE DIFFICULTY FROM HEART</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToRemoveDifficultyFromHeart.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page44" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO REMOVE JINNATS</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToRemoveJinnats.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page45" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO REMOVE THE EFFECT OF WITCHCRAFT</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToRemovetheEffectofWitchcraft.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page46" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO SEE THE PROPHET</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToseetheProphet.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page47" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO STOP OPPRESSOR FROM OPPRESSING</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToStopOppressorformoppressing.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page48" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>TO WIN A COURT CASE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/ToWinACourtCase.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page49" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>UNCURABLE DISEASE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/UncurableDisease.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page50" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>UNEASINESS IN HEART</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/UneasinessInHeart.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page51" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>VASTNESS IN SUBSISTENCE</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/VastnessInSubsistence.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page52" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>WEAK EYESIGHT</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/WeakEyesight.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page53" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>WEAKNESS OF THE STOMACH</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/WeaknessoftheStomach.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page54" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>WHEN SOMETHING IS LOST</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/WhenSomeThingIsLost.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page55" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>When Something is Stolen</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/WhenSomethingisStolen.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+    </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page56" data-add-back-btn="true">
+	<div data-role="header" data-theme="b">
+		<h1>WISH FOR HAVING A BABY GIRL</h1>
+	</div>
+	<div data-role="content">	
+	<img src="images/WishForHavingABabyGirl.jpg" width="300" height="420"> </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+    </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="page102" data-add-back-btn="true" >
+	<div data-role="header" data-theme="b">
+		<h1>About</h1>
+	</div>
+	<div data-role="content">
+     <div style="text-align:center"><h1>Dua from Quran</h1></div>
+     <div style="text-align:center"><h3>&copy; 2014 WebMobileTechki<h3></div>
+     <br><br>
+     <div>Please note that these supplications are purely taken from Quran Verses and it is recomemded by Mufti Islamic Scholar. This is the Mobile Software version of book. </div>
+     <br><br>
+
+     <div>It is the responsibility of the user to verify all information before taking into consideration. WebMobileTechki will not accept any responsibility for any consequences arising from the use of this application. Should you come accross incorrect information please contact us on the address provided below </div>
+    
+<br><br>
+<div>mohdasghar_ali@yahoo.com</div>
+<br><br>
+
+    
+  </div>
+	<div data-role="footer" data-theme="b">
+		<h4></h4>
+	</div>
+</div>
+
+
+</body>
+</html>
